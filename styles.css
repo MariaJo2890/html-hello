@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+header {
+    padding: 10px;
+}
+
+h1{
+    margin: 0 400px;
+    padding: 15px;
+}
+main {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 60px 0;
+}
+
+.father {
+    width: 35%;
+}
+
+.son_header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.pic_number{
+    color: gray;
+}
+
+.son_picture{
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.son_footer {
+    background-color: white;
+    margin-top: -5px;
+    padding: 15px 10px;
+}
